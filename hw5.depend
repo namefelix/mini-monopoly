@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1736236813 source:c:\users\rabbi\desktop\留學用_codes\1223_python_code\tpp_hw5\hw5\game.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<ctime>
+	"player.h"
+	"location.h"
+	"game.h"
+
+1736237039 c:\users\rabbi\desktop\留學用_codes\1223_python_code\tpp_hw5\hw5\player.h
+	<string>
+	<iosfwd>
+	<vector>
+
+1736237308 c:\users\rabbi\desktop\留學用_codes\1223_python_code\tpp_hw5\hw5\location.h
+	<string>
+	<vector>
+	<iosfwd>
+
+1736237599 c:\users\rabbi\desktop\留學用_codes\1223_python_code\tpp_hw5\hw5\game.h
+	"player.h"
+	"location.h"
+	<iosfwd>
+	<string>
+
+1736151659 source:c:\users\rabbi\desktop\留學用_codes\1223_python_code\tpp_hw5\hw5\location.cpp
+	<string>
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	"player.h"
+	"location.h"
+
+1736151659 source:c:\users\rabbi\desktop\留學用_codes\1223_python_code\tpp_hw5\hw5\main.cpp
+	"game.h"
+	<string>
+	<iostream>
+
+1736151659 source:c:\users\rabbi\desktop\留學用_codes\1223_python_code\tpp_hw5\hw5\player.cpp
+	"player.h"
+	"location.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+
+1736238620 source:c:\users\rabbi\desktop\留學用_codes\tpp_hw5\game.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<ctime>
+	"player.h"
+	"location.h"
+	"game.h"
+
+1736237934 c:\users\rabbi\desktop\留學用_codes\tpp_hw5\player.h
+	<string>
+	<iosfwd>
+	<vector>
+
+1736238152 c:\users\rabbi\desktop\留學用_codes\tpp_hw5\location.h
+	<string>
+	<vector>
+	<iosfwd>
+
+1736237883 c:\users\rabbi\desktop\留學用_codes\tpp_hw5\game.h
+	"player.h"
+	"location.h"
+	<iosfwd>
+	<string>
+
+1736238063 source:c:\users\rabbi\desktop\留學用_codes\tpp_hw5\location.cpp
+	<string>
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	"player.h"
+	"location.h"
+
+1736238489 source:c:\users\rabbi\desktop\留學用_codes\tpp_hw5\main.cpp
+	"game.h"
+	<string>
+	<iostream>
+
+1736151659 source:c:\users\rabbi\desktop\留學用_codes\tpp_hw5\player.cpp
+	"player.h"
+	"location.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+

@@ -17,7 +17,7 @@ int Game::Init(const string &s)
     cout << "How many players want to play the game?(2-4)...>" ;
     string num;
     getline(cin,num);
-    if(num[0]>= '2' && num[0] <= '4')num_players_ = num[0]-'0';
+    if(num[0]>= '2' && num[0] <= '0' + Players::MAX_PLAYERS)num_players_ = num[0]-'0';
     else return 0;
     for(int i=0; i<num_players_; ++i)
     {

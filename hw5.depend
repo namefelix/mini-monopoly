@@ -89,3 +89,48 @@
 	<iomanip>
 	<cstdlib>
 
+1738751450 source:c:\users\rabbi\downloads\mini-monopoly-main\mini-monopoly-main\game.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<ctime>
+	"player.h"
+	"location.h"
+	"game.h"
+
+1738755070 c:\users\rabbi\downloads\mini-monopoly-main\mini-monopoly-main\player.h
+	<string>
+	<iosfwd>
+	<vector>
+
+1738754894 c:\users\rabbi\downloads\mini-monopoly-main\mini-monopoly-main\location.h
+	<string>
+	<vector>
+	<iosfwd>
+
+1738751264 c:\users\rabbi\downloads\mini-monopoly-main\mini-monopoly-main\game.h
+	"player.h"
+	"location.h"
+	<iosfwd>
+	<string>
+
+1738751264 source:c:\users\rabbi\downloads\mini-monopoly-main\mini-monopoly-main\location.cpp
+	<string>
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	"player.h"
+	"location.h"
+
+1738755024 source:c:\users\rabbi\downloads\mini-monopoly-main\mini-monopoly-main\main.cpp
+	"game.h"
+	<string>
+	<iostream>
+
+1738751264 source:c:\users\rabbi\downloads\mini-monopoly-main\mini-monopoly-main\player.cpp
+	"player.h"
+	"location.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+

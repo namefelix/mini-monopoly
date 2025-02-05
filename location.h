@@ -44,6 +44,7 @@ class Buyable : public LocationBase
 {
 public:
     Buyable (const Buyable&) = delete;
+    Buyable & operator = (const Buyable&) = delete;
     Buyable(int id, const std::string &name, int price):LocationBase(id,name),price_(price) {};
     virtual void Display(std::ostream&) const override;
     virtual void Interact(Player&) override;
@@ -117,6 +118,7 @@ class Locations
 
 public:
     Loactions(const Locations&) = delete;
+    Locations& operator = (const Locations&) = delete;
     void AddLocation(LocationBase* p) { game_locations_.push_back(p); num_locations_+=1; }
     ~Locations(){ for(int i=0; i<num_locations_; ++i)delete game_locations_[i]; }
 

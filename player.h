@@ -51,8 +51,11 @@ class Players
     friend std::ostream& operator << (std::ostream&, const Players&);
 
 public:
+    constexpr static int MAX_PLAYERS = 4;
+
     Players() = default;
     Players(const Players&) = delete;
+    Players& operator = (const Players&) = delete;
     ~Players(){ for(int i=0; i<num_players_; ++i) delete game_players_[i]; }
 
     int AddPlayer(Player*);
@@ -65,7 +68,6 @@ public:
     int GetCurrentPlayer() const { return current_player_; }
 
 private:
-    constexpr static int MAX_PLAYERS = 4;
     int num_players_ = 0;
     std::vector <Player*> game_players_ = std::vector <Player*>();
     int current_player_ = 0;

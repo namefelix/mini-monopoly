@@ -6,7 +6,9 @@ using namespace std;
 int main(int argc, char* argv[])
 {
     Game game;
-    if( game.Init("map.dat") )
+    string path = "map.dat";
+    if(argc>1) path = argv[1];
+    if( game.Init(path) )
     {
         do{
             cout << game;

@@ -15,7 +15,7 @@ LocationBase::LocationBase(int id, const string &name):id_(id),name_(name)
             player_is_here_[i] = 1;
     }
 }
-Upgradeable::Upgradeable(int id, const string &name, int price, int upgradePrice, int* fine):
+Upgradeable::Upgradeable(int id, const string &name, int price, int upgradePrice, const int *fine):
     Buyable(id,name,price),level_up_cost_(upgradePrice),level_(0)
 {
     for(int i=0;i<MAX_LEVEL;++i)unit_fine_[i]=fine[i];

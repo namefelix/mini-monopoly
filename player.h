@@ -43,7 +43,7 @@ private:
     int current_location_ = 0;
     int num_location_owned_ = 0;
     std::vector <LocationBase*> location_owned_;
-    bool in_jail = 0;
+    bool in_jail = false;
 };
 
 class Players

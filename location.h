@@ -17,9 +17,9 @@ public:
     virtual void Interact(Player&) = 0;
     virtual void Free() = 0;
 
-    const std::string GetName() const { return name_; }
-    void Leave(int index){ player_is_here_[index] = 0; }
-    void Come(int index){ player_is_here_[index] = 1; }
+    const std::string& GetName() const { return name_; }
+    void Leave(int index){ player_is_here_[index] = false; }
+    void Come(int index){ player_is_here_[index] = true; }
     static void SetNumOfPlyers(int i){ num_players_ = i; }
 
 private:
@@ -62,7 +62,7 @@ class Upgradeable final: public Buyable
 {
 public:
     constexpr static int MAX_LEVEL = 5;
-    Upgradeable(int id, const std::string&, int price, int upgradePrice, int* fine);
+    Upgradeable(int id, const std::string&, int price, int upgradePrice, const int* fine);
 
     virtual void Display(std::ostream&) const override;
     virtual void Interact(Player&) override;
